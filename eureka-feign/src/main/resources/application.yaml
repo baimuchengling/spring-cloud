@@ -1,0 +1,12 @@
+server:
+  port: 8004
+spring:
+  application:
+    name: feign
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    eureka-server-port: 8000
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${eureka.client.eureka-server-port}/eureka/

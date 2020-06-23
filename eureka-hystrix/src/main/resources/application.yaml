@@ -1,0 +1,15 @@
+server:
+  port: 8005
+spring:
+  application:
+    name: hystrix
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    eureka-server-port: 8000
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${eureka.client.eureka-server-port}/eureka/
+feign:
+  hystrix:
+    enabled: true # 打开熔断器功能

@@ -1,0 +1,11 @@
+
+本项目端口占用：
+server：8000
+producer：8001
+consumer：8002
+ribbon：8003
+feign：8004
+hystrix：8005
+zuul：8006
+server-config：8007
+client-config：8008

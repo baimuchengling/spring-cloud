@@ -1,0 +1,13 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: producer
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    eureka-server-port: 8000
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${eureka.client.eureka-server-port}/eureka/
+
