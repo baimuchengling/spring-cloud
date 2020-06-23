@@ -7,4 +7,15 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: git@github.com:baimuchengling/spring-cloud.git
+          search-paths: server-config/src/main/resources/config
+          default-label: master
+          username: xxx
+          password: xxx
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    eureka-server-port: 8000
+    service-url:
+     defaultZone: http://${eureka.instance.hostname}:${eureka.client.eureka-server-port}/eureka/

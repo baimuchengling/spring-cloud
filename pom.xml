@@ -26,6 +26,7 @@
         <module>eureka-hystrix</module>
         <module>eureka-zuul</module>
         <module>server-config</module>
+        <module>client-config</module>
     </modules>
 
     <!--定义全局项目属性 -->
@@ -76,11 +77,8 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
         </dependency>
-        <!--server config-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
-        </dependency>
+
+
 
         <dependency>
             <groupId>com.alibaba</groupId>
