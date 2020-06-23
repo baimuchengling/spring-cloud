@@ -10,8 +10,8 @@ spring:
           uri: git@github.com:baimuchengling/spring-cloud.git
           search-paths: server-config/src/main/resources/config
           default-label: master
-          username: baimuchengling
-          password: hzl=19930515
+          username: xxx
+          password: xxx
 eureka:
   instance:
     hostname: localhost
