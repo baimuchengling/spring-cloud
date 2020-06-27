@@ -8,7 +8,10 @@ spring:
     config:
       label: master
       profile: dev
-      uri: http://localhost:8007/
+      #uri: http://localhost:8007/ # 通过ip访问server-config
+      discovery:
+        enabled: true
+        service-id: server-config # 通过服务名访问server-config
 
 eureka:
   instance:

@@ -3,6 +3,7 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/client-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-config11" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/euraka-producer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-consumer" charset="UTF-8" />
