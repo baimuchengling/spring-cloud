@@ -3,16 +3,31 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/client-config" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/config-config11" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/client-config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/euraka-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/euraka-producer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-hystrix/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-ribbon/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server-one" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server-one/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-zuul/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sleuth-zipkin-one" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sleuth-zipkin-one/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sleuth-zipkin-two" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sleuth-zipkin-two/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

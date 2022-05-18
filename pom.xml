@@ -27,6 +27,9 @@
         <module>eureka-zuul</module>
         <module>server-config</module>
         <module>client-config</module>
+        <module>sleuth-zipkin-one</module>
+        <module>sleuth-zipkin-two</module>
+        <module>eureka-server-one</module>
     </modules>
 
     <!--定义全局项目属性 -->

@@ -9,3 +9,7 @@ hystrix：8005
 zuul：8006
 server-config：8007
 client-config：8008
+sleuth-zipkin-two:8009
+sleuth-zipkin-two:8010
+Sleuth:
+Spring Cloud Sleuth 主要功能就是在分布式系统中提供追踪解决方案，并且兼容支持了 zipkin，你只需要在pom文件中引入相应的依赖即可。

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/client-config/client-config.iml" filepath="$PROJECT_DIR$/client-config/client-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/euraka-producer/euraka-producer.iml" filepath="$PROJECT_DIR$/euraka-producer/euraka-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-common/eureka-common.iml" filepath="$PROJECT_DIR$/eureka-common/eureka-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-feign/eureka-feign.iml" filepath="$PROJECT_DIR$/eureka-feign/eureka-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-hystrix/eureka-hystrix.iml" filepath="$PROJECT_DIR$/eureka-hystrix/eureka-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-ribbon/eureka-ribbon.iml" filepath="$PROJECT_DIR$/eureka-ribbon/eureka-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-one/eureka-server-one.iml" filepath="$PROJECT_DIR$/eureka-server-one/eureka-server-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-zuul/eureka-zuul.iml" filepath="$PROJECT_DIR$/eureka-zuul/eureka-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new-cloud.iml" filepath="$PROJECT_DIR$/new-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-config/server-config.iml" filepath="$PROJECT_DIR$/server-config/server-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sleuth-zipkin-one/sleuth-zipkin-one.iml" filepath="$PROJECT_DIR$/sleuth-zipkin-one/sleuth-zipkin-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sleuth-zipkin-two/sleuth-zipkin-two.iml" filepath="$PROJECT_DIR$/sleuth-zipkin-two/sleuth-zipkin-two.iml" />
+    </modules>
+  </component>
+</project>

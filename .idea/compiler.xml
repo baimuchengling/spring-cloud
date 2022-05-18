@@ -1,27 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="1400" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="clientconfig" />
-        <module name="configclient" />
-        <module name="eurakaproducer" />
-        <module name="eurekacommon" />
-        <module name="eurekaconsumer" />
-        <module name="eurekafeign" />
-        <module name="eurekahystrix" />
-        <module name="eurekaribbon" />
-        <module name="eurekaserver" />
-        <module name="eurekazuul" />
-        <module name="serverconfig" />
+        <module name="sleuth-zipkin-two" />
+        <module name="eureka-zuul" />
+        <module name="eureka-consumer" />
+        <module name="server-config" />
+        <module name="sleuth-zipkin-one" />
+        <module name="client-config" />
+        <module name="eureka-server" />
+        <module name="eureka-common" />
+        <module name="eureka-hystrix" />
+        <module name="eureka-feign" />
+        <module name="euraka-producer" />
+        <module name="eureka-server-one" />
+        <module name="eureka-ribbon" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="configclient" target="1.8" />
+    <bytecodeTargetLevel target="8">
+      <module name="client-config" target="1.8" />
+      <module name="euraka-producer" target="1.8" />
+      <module name="eureka-common" target="1.8" />
       <module name="eureka-consumer" target="1.8" />
+      <module name="eureka-feign" target="1.8" />
+      <module name="eureka-hystrix" target="1.8" />
+      <module name="eureka-ribbon" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-server-one" target="1.8" />
+      <module name="eureka-zuul" target="1.8" />
+      <module name="new-cloud" target="1.8" />
+      <module name="server-config" target="1.8" />
+      <module name="sleuth-zipkin-one" target="1.8" />
+      <module name="sleuth-zipkin-two" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="client-config" options="-parameters" />
+      <module name="euraka-producer" options="-parameters" />
+      <module name="eureka-common" options="-parameters" />
+      <module name="eureka-consumer" options="-parameters" />
+      <module name="eureka-feign" options="-parameters" />
+      <module name="eureka-hystrix" options="-parameters" />
+      <module name="eureka-ribbon" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server-one" options="-parameters" />
+      <module name="eureka-zuul" options="-parameters" />
+      <module name="server-config" options="-parameters" />
+      <module name="sleuth-zipkin-one" options="-parameters" />
+      <module name="sleuth-zipkin-two" options="-parameters" />
+    </option>
   </component>
 </project>
